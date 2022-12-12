@@ -1,0 +1,16 @@
+.paginacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.paginacion button {
+  border-radius: 10px;
+  background-color: #ff7d00;
+  transition: 0.2s;
+}
+
+.paginacion button:hover {
+  scale: 1.1
+}
